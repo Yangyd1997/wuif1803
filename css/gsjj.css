@@ -1,0 +1,200 @@
+/*
+* @Author: dongge
+* @Date:   2018-04-25 19:01:28
+* @Last Modified by:   dongge
+* @Last Modified time: 2018-05-21 17:35:00
+*/
+*{
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+	font-family: "苹方","微软雅黑","宋体";
+}
+a{
+	/* 清除下划线 */
+	text-decoration: none;
+	color:#b0b0b0; 
+}
+i{
+	/* 设置文字样式：正常 */
+	font-style: normal;
+}
+.nav{
+	width: 100%;
+	height: 105px;
+	background: #f7f8f8;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.logo{
+	width: 165px;
+	height: 94px;
+	margin-left: 81px;
+	margin-top: 11px;
+	float: left;
+}
+.logo img{
+	width: 165px;
+	height: 94px;
+}
+.nav .main .right{
+	width: 908px;
+	height: 88px;
+	margin-left:117px ;
+	margin-top: 10px;
+	float: left;
+	/* background: red; */
+}
+.nav .main .right a{
+	display: inline-block;
+	color: rgb(113, 113, 113);
+    font-size: 15px;
+    margin-top: 49px;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 69px;
+}
+.nav .main .right a:hover{
+	color: #b30e0e;
+}
+.banner{
+	width: 100%;
+	height:400px ;
+	float: left;
+	position: relative;
+}
+.banner img{
+	width:100%;
+	height: 100%;
+}
+.jianjie{
+	width: 1200px;
+	height: 348px;
+	float: left;
+	background: #f2f2f2;
+	margin-top: 48px;
+	margin-left: 75px;
+	position: relative;
+}
+.jianjie .tp{
+	width: 610px;
+	height: 610px;
+	position: absolute;
+	top: -115px;
+	left: 32px;
+}
+.jianjie .tp img{
+	width: 100%;
+	height: 430px;
+}
+.jianjie .js{
+	width: 534px;
+	height: 265px;
+	float: right;
+	/* background: pink; */
+	position: relative;
+}
+.jianjie .js .bt1{
+	font-size: 25px;
+    margin-top: 30px;
+    line-height:30px;
+    float: left;
+}
+.jianjie .js .bt2{
+	font-size: 18px;
+	margin-top: 25px;
+    line-height:18px;
+    float: left;
+	position: absolute;
+	left: 0px;
+}
+.jianjie .js .bt3{
+	font-size: 15px;
+	margin-top: 35px;
+    line-height:30px;
+    float: left;
+}
+.qyfc .mg img{
+	width: 149px;
+	height: 137px;
+	float: left;
+	margin-top:94px ;
+	margin-left:600px;
+}
+.qyfc .box1{
+	width: 1200px;
+	height: 500px;
+	float: left;
+	margin-top: 46px;
+	margin-left: 71px;
+	/* background: pink; */
+}
+.qyfc .box1 img{
+	width: 830px;
+	height: 500px;
+	float: left;
+}
+.qyfc .box1 .box1a{
+	width: 370px;
+	height: 260px;
+	float: left;
+	margin-top: 240px;
+	background: #f5f3f4;
+}
+.qyfc .box1 .box1a span{
+	font-size: 20px;
+	color: #4d4d4d;
+	display: block;
+	text-align: center;
+}
+.qyfc .box1:nth-child(3){
+	margin-top: 20px;
+}
+.qyfc .box1:nth-child(4){
+	margin-top:20px;
+}
+.tab{
+	width: 100%;
+	height: 206px;
+	background-color: #323232;
+	float: left;
+	margin-top: 100px;
+}
+.wz{
+	width:578.6px ;
+	height:120.25px ;
+	float: left;
+	margin-left:95px ;
+	margin-top:56px;
+	/* background: pink; */
+}
+.wz .wz1{
+	width: 100%;
+	height: 25px;
+	/* background: blue; */
+}
+.wz  .wz1 a{
+	color: #fff;
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 16px;
+    float: left;
+}
+.wz .weizhi{
+	width: 100%;
+	height: 26px;
+	line-height:26px ;
+	font-size:15px ;
+	float: left;
+	color: #fff;
+    padding: 28px 0 12px;
+}
+.wz p{
+	margin-top:10px;
+	color: white;
+	float: left;
+}
